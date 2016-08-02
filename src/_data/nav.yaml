@@ -1,0 +1,10 @@
+main:
+  - title: The Team
+    url: /the-team/
+    desc: Go to Who are we?
+  - title: The Projects
+    url: /the-projects/
+    desc: Go to The Projects
+  - title: Get in touch
+    url: /contact/
+    desc: Get in touch with Clever Biscuit

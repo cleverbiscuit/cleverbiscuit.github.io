@@ -1,0 +1,52 @@
+// Hero
+
+.hero {
+	width: 80%;
+	margin: $spacing auto;
+	text-align: center;
+
+	@include breakpoint($break-sm) {
+		margin: $spacing auto $spacing-md;
+		max-width: 75%;
+	}
+
+	@include breakpoint($break-md) {
+		margin: 75px auto 150px;
+		max-width: 60%;
+	}
+
+	@include breakpoint($break-lg) {
+		margin: $spacing*3 auto $spacing*6;
+		max-width: 50%;
+	}
+}
+
+.hero__image {
+	margin: 0 auto $spacing-sm;
+	width: 90%;
+	@include breakpoint($break-sm) {
+		width: 60%;
+	}
+}
+
+.hero__title {
+	font-size: 32px;
+	line-height: 40px;
+	margin: 0 0 $spacing;
+	padding: 0;
+}
+
+.hero__sub-title {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 24px;
+	margin: 0 0 $spacing-md;
+	padding: 0;
+	color: #777;
+}
+
+.hero__button {
+	@include breakpoint($mobile-portrait) {
+		width: 100%;
+	}
+}

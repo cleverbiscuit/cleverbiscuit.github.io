@@ -1,0 +1,10 @@
+{
+  "name": "cleverbiscuit.com",
+  "version": "2.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "animate-sass": "^0.6.6",
+    "breakpoint-sass": "^2.7.0",
+    "jquery": "^3.1.0"
+  }
+}

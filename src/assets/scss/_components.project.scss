@@ -1,0 +1,48 @@
+// Projects
+
+.project__description p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	margin: 0 0 18px;
+	padding: 6px 0 0;
+}
+
+@include breakpoint($break-sm) {
+		
+	.project__description p {
+		font-size: 17px;
+		line-height: 28px;
+		margin: 0 0 20px;
+		padding: 8px 0 0;
+	}
+
+}
+
+@include breakpoint($break-md) {
+
+	.project__description p {
+		font-size: 20px;
+		line-height: 34px;
+		margin: 0 0 34px 0;
+		padding: 10px 0 0;
+	}
+
+}
+
+.project__nav {
+	padding: $spacing 0;
+	background: rgba(0,0,0,0.1);
+	border-top: 1px solid rgba(0,0,0,0.1);
+
+	li {
+		font-weight: 300;
+	}
+
+	 a {
+	 	font-family: "Source Serif", serif;
+	 	font-size: 22px;
+	 	line-height: 28px;
+	 	display: block;
+	 }
+}

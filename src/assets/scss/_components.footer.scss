@@ -1,0 +1,12 @@
+// Footer
+
+.site-footer {
+	padding: $spacing-lg 0;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.site-address {
+	@include breakpoint($break-sm) {
+		text-align: right;	
+	}
+}

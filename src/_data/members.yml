@@ -1,0 +1,30 @@
+- name: Maebellyne
+  twitter: Maebellyne
+  website: http://maebellyneventura.com
+  img: mae-clever-biscuit
+  bio: Living in 3 countries while growing up has made Maebellyne into the social media fanatic that she is. Next to her blog, she enjoys doodling and finding creative solutions. She will also answer any questions you may have.
+  public: yes
+
+- name: Mitch
+  github: mitchrenton
+  twitter: mitchrenton
+  website: http://mitchellrenton.com
+  img: mitch-clever-biscuit
+  bio: Mitchell is our resident UX Designer, keeping things simple for our users. Armed with Sketch, Sublime Text, biscuits and passion for the web, Mitch keeps Clever Biscuit fresh, creative, intuitive and beautiful.
+  public: yes
+
+- name: Seb
+  img: seb-clever-biscuit
+  bio: Seb isn’t called a ‘ninja’ for nothing… he does a really good Bruce Lee impression. In Clever Biscuit Seb is the HTML, CSS, PHP, MySQL, JavaScript and French talking genius that writes all the clever bits of code for each tool.
+
+- name: Chris
+  github: ChrisCB
+  twitter: ChrisReynoldsUK
+  website: http://qforquery.com
+  img: chris-clever-biscuit
+  bio: Chris started programming for fun as a young boy. Now a man of talent (literally - just one), he has turned the Internet in to an art form. Chris is in charge of making sure every pixel is in place and every line of code works.
+  public: yes
+
+- name: Steve
+  img: steve-clever-biscuit
+  bio: An honest-to-goodness full stack developer, Steve's in charge of technology and architecture (aka all the heavy lifting) at Clever Biscuit. He is actually several people, each of whom possess one talent but conspire to assume a single identity to share child care responsibilities.

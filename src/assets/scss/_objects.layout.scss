@@ -1,0 +1,116 @@
+// Layout
+
+// Grid
+
+.container {
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 $spacing;
+
+	@include breakpoint($break-md) {
+		max-width: 900px;
+	}
+
+	@include breakpoint($break-lg) {
+		max-width: 1100px;
+	}
+
+	@include breakpoint($break-xl) {
+		max-width: 1300px;
+	}
+}
+
+.grid {
+	margin-left: -$spacing;
+
+	@include breakpoint($break-md) {
+		margin-left: -$spacing-md;
+	}
+	
+}
+
+.grid__col {
+	width: 100%;
+	display: inline-block;
+	padding-left: $spacing;
+	vertical-align: top;
+
+	@include breakpoint($break-md) {
+		padding-left: $spacing-md;
+	}
+}
+
+// Widths
+
+.u-6 {
+	width: 50%;
+}
+
+@include breakpoint($break-sm) {
+	
+	.u-3-sm {
+		width: 25%;
+	}
+
+	.u-4-sm {
+		width: 33.3333333333%;
+	}
+
+	.u-6-sm {
+		width: 50%;
+	}
+
+	.u-8-sm {
+		width: 66.6666666667%
+	}
+
+}
+
+@include breakpoint($break-md) {
+		
+	.u-3-md {
+		width: 25%;
+	}
+
+	.u-4-md {
+		width: 33.3333333333%;
+	}
+
+	.u-6-md {
+		width: 50%;
+	}
+
+	.u-8-md {
+		width: 66.6666666667%;
+	}
+}
+
+@include breakpoint($break-lg) {
+
+	.u-3-lg {
+		width: 25%;
+	}
+}
+
+// Create section
+
+.section {
+	padding: $spacing-sm 0;
+
+	@include breakpoint($break-sm) {
+		padding: $spacing-md 0;
+	}
+
+	@include breakpoint($break-md) {
+		padding: $spacing-lg 0;
+	}
+
+	@include breakpoint($break-lg) {
+		padding: $spacing-xl 0;
+	}
+}
+
+.section--bottom {
+	padding: 0 0 $spacing-xl;
+}

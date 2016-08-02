@@ -1,0 +1,24 @@
+// Lists
+
+.list--inline {
+	> li {
+		display: inline-block;
+		margin: 0;
+	}
+}
+
+.list--inline--delimited {
+	> li + li {
+
+		&:before {
+			content: '\00A0\00A0\2027\00A0\00A0'
+		}
+
+	}
+}
+
+.list--stripped {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}

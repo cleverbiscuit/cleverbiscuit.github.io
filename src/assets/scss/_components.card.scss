@@ -1,0 +1,31 @@
+// Card
+
+.card {
+	margin: 2rem 0;
+}
+
+.card__image {
+	min-height: 186px;
+	text-align: center;
+}
+
+.card__title {
+	text-align: center;
+}
+
+.card__links {
+	padding: $spacing-sm 0;
+}
+
+.card__link {
+	opacity: .6;
+
+	&:hover {
+		opacity: 1;
+	}
+
+}
+
+.card__image--profile {
+	
+}

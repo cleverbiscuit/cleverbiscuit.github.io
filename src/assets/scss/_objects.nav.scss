@@ -1,0 +1,24 @@
+// Navs
+
+.nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav--inline {
+
+	.nav__item {
+		display: inline-block;
+		margin: 0;
+	}
+
+	.nav__item-link {
+		display: inline-block;
+	}
+
+}
+
+.nav--paged {
+	padding: 0;
+}

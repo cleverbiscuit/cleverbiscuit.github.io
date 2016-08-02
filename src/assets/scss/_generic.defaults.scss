@@ -1,0 +1,21 @@
+html {
+	box-sizing: border-box;
+}
+
+* {
+	&,
+	&:before,
+	&:after {
+		box-sizing: inherit;
+	}
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	height: auto;
+}
+
+figure {
+	margin: 0 0 2rem;
+}

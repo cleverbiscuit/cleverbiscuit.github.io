@@ -1,0 +1,66 @@
+// Header
+
+.site-header {
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.site-title {
+	display: block;
+	padding: $spacing-sm 0;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #333;
+	&:hover {
+		color: #999;
+	}
+}
+
+.site-nav {
+
+	@include breakpoint($break-sm) {
+		padding-top: 4px;
+	}
+
+	.nav__item {
+		font-size: 16px;
+		text-transform: capitalize;
+
+		&:first-child .nav__item-link {
+			padding-left: 0;
+		}
+
+		@include breakpoint($break-sm) {
+
+			&:first-child .nav__item-link {
+				padding-left: $spacing-sm;
+			}
+			&:last-child .nav__item-link {
+				padding-right: 0;
+			}
+		}
+	}
+
+	.nav__item-link {
+		display: inline-block;
+		padding: 0 $spacing-sm $spacing-sm;
+
+		@include breakpoint($break-sm) {
+			padding-top: $spacing-sm;
+		}
+
+		color: #999;
+
+		&:hover, &.nav__item-link--active {
+			color: #333;
+		}
+	}
+
+	@include breakpoint($break-sm) {
+		text-align: right;
+
+		.nav__item-link {
+			padding: $spacing-sm;
+		}
+	}
+}

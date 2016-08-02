@@ -1,0 +1,22 @@
+// Buttons
+
+.btn {
+	display: inline-block;
+	padding: $spacing-sm $spacing;
+	margin: 0;
+	overflow: visible;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	cursor: pointer;
+	border: none;
+
+	&--cta {
+		background-color: #386085;
+		color: #fff;
+	}
+
+}

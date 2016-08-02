@@ -1,0 +1,41 @@
+// Gallery
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.85);
+  transition: opacity 300ms;
+  z-index: 500;
+  opacity: 0;
+}
+
+.Overlay.show {
+  opacity: 1;
+}
+
+.zoom-image-clone {
+  position: fixed;
+  transition: transform 0.23s linear;
+  z-index: 500;
+  cursor: zoom-out;
+}
+
+.Overlay.image-zoom-overlay {
+  background-color: white;
+  background-color: rgba(255,255,255,0.97);
+}
+
+.gallery__item {
+  cursor: zoom-in;
+}
+
+.Overlay {
+  background: rgba(255,255,255,0.9);
+}
+
+img.loading {
+  opacity: 0.3;
+}

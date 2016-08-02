@@ -1,0 +1,24 @@
+// Defaults
+
+// Spacing
+$spacing: 						24px;
+$spacing-xs:					$spacing/2;
+$spacing-sm:					$spacing/1.5;
+$spacing-md:					$spacing*1.5;
+$spacing-lg:					$spacing*2;
+$spacing-xl:					$spacing*4;
+
+// Berakpoints
+$break-xs:						375px;
+$break-sm:						640px;
+$break-md:						800px;
+$break-lg:						1025px;
+$break-xl:						1600px;
+
+$mobile-portrait: 				max-width $break-xs;
+$mobile-landscape: 				min-width $break-xs+1;
+$mobile:						max-width $break-sm;
+
+$tablet:						min-width $break-sm;
+$tablet-portrait:				($break-sm $break-md) (orientation portrait);
+$tablet-landscape:				($break-sm $break-md) (orientation landscape);

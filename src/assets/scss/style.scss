@@ -1,0 +1,33 @@
+/* CSS Architecure based on Harry Roberts ITCSS http://itcss.io/ */
+
+//Settings
+@import "settings.defaults.scss",
+		"../../../bower_components/breakpoint-sass/stylesheets/_breakpoint.scss";
+
+// Tools
+@import "tools.mixins.scss";
+
+// Generic
+@import "generic.normalize.scss",
+		"generic.defaults.scss";
+
+// Base
+@import "base.type.scss";
+
+// Objects
+@import "objects.buttons.scss",
+		"objects.forms.scss",
+		"objects.helpers.scss",
+		"objects.layout.scss",
+		"objects.lists.scss",
+		"objects.gallery.scss",
+		"objects.nav.scss";
+
+// Components
+@import "components.header.scss",
+		"components.footer.scss",
+		"components.card.scss",
+		"components.project.scss",
+		"components.hero.scss";
+
+// Trumps
