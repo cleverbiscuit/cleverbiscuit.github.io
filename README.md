@@ -6,7 +6,7 @@ The company website for Clever Biscuit, built using the [jekyllized](https://git
 
 - Ruby: >2.0 with Bundler >1.10
 - Node: >4.2 and Yo >1.7.0
-- Gulp: Since the release candidate is running Gulp 4.0 you need to install gulp-cli: npm install gulp-cli -g
+- Gulp: Since the release candidate is running Gulp 4.0 you need to install gulp-cli: `npm install gulp-cli -g`
 
 # Installtion
 
