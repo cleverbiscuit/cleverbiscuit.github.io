@@ -4,7 +4,7 @@ const ghpages = require('gulp-gh-pages');
 
 // 'gulp deploy' -- pushes your dist folder to Github
 gulp.task('upload', () => {
-  return gulp.src('dist/**/*')
+  return gulp.src('dist/**/*', {dot: true})
     .pipe($.ghPages({
       branch: 'master'
     }));
