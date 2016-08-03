@@ -6,7 +6,7 @@ permalink: /contact/
 
 <p>We'd love to hear from you. Send us a message below if you'd like to discuss something or have a question about one of our products. We love to hear from our users!</p>
 
-<form action="//formspree.io/mitchrenton@gmail.com" method="post" id="contact-form" class="form">
+<form action="//formspree.io/hello@cleverbiscuit.com" method="post" id="contact-form" class="form">
 
 	<div class="grid">
 
