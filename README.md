@@ -8,6 +8,7 @@ The company website for Clever Biscuit, built using the [jekyllized](https://git
 - Node: >4.2 and Yo >1.7.0
 - Gulp: Since the release candidate is running Gulp 4.0 you need to install gulp-cli: `npm install gulp-cli -g`
 - Bower: `npm install -g bower`
+- Yeoman: `npm install -g yo`
 
 # Installtion
 
