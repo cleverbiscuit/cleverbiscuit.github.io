@@ -8,7 +8,7 @@ $contactForm.submit(function(e) {
 	var defaultSubmitText = $submit.val();
 
 	$.ajax({
-		url: '//formspree.io/mitchrenton@gmail.com',
+		url: '//formspree.io/hello@cleverbiscuit.com',
 		method: 'POST',
 		data: $(this).serialize(),
 		dataType: 'json',
